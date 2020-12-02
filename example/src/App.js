@@ -13,6 +13,10 @@ const App = () => {
       <Spin type='pulse' size='sm' color='dark' />
       <Spin type='pulse' color='primary' />
       <Spin type='pulse' size='lg' color='warning' />
+      <h3>Double Bounce</h3>
+      <Spin type='double-bounce' size='sm' color='dark' />
+      <Spin type='double-bounce' color='success' />
+      <Spin type='double-bounce' size='lg' color='danger' />
     </div>
   )
 }
