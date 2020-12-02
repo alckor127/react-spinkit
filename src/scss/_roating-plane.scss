@@ -1,0 +1,60 @@
+.spin-rotateplane {
+  width: 40px;
+  height: 40px;
+  background-color: currentColor;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+  // sizes
+  &-sm {
+    width: 20px;
+    height: 20px;
+  }
+
+  &-lg {
+    width: 60px;
+    height: 60px;
+  }
+  // colors
+  &-primary {
+    background-color: $primary;
+  }
+
+  &-secondary {
+    background-color: $secondary;
+  }
+
+  &-success {
+    background-color: $success;
+  }
+
+  &-warning {
+    background-color: $warning;
+  }
+
+  &-danger {
+    background-color: $danger;
+  }
+
+  &-info {
+    background-color: $info;
+  }
+
+  &-light {
+    background-color: $light;
+  }
+
+  &-dark {
+    background-color: $dark;
+  }
+}
+
+@keyframes sk-rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
