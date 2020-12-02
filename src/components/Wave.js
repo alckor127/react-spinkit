@@ -10,8 +10,6 @@ const Wave = ({ size, color, className, ...rest }) => {
     [className]: className
   })
 
-  console.log(styles)
-
   return (
     <div className={_className} {...rest}>
       <div className={styles[`spin-wave-rect`]}></div>

@@ -1,9 +1,9 @@
-.spin-rotateplane {
+.spin-rotate-plane {
   width: 40px;
   height: 40px;
   background-color: currentColor;
   vertical-align: text-bottom;
-  animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotate-plane 1.2s infinite ease-in-out;
 
   // sizes
   &-sm {
@@ -50,7 +50,7 @@
   }
 }
 
-@keyframes sk-rotateplane {
+@keyframes sk-rotate-plane {
   0% {
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
   }

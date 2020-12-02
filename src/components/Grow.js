@@ -2,15 +2,15 @@ import React from "react"
 import classNames from "classnames"
 import styles from "../scss/styles.module.scss"
 
-const RoatingPlane = ({ size, color, className, ...rest }) => {
+const Grow = ({ size, color, className, ...rest }) => {
   const _className = classNames({
-    [styles[`spin-rotateplane`]]: true,
-    [styles[`spin-rotateplane-${color}`]]: color,
-    [styles[`spin-rotateplane-${size}`]]: size,
+    [styles[`spin-grow`]]: true,
+    [styles[`spin-grow-${color}`]]: color,
+    [styles[`spin-grow-${size}`]]: size,
     [className]: className
   })
 
   return <div className={_className} {...rest}></div>
 }
 
-export { RoatingPlane }
+export { Grow }

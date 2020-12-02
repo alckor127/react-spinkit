@@ -1,4 +1,7 @@
-export { RoatingPlane } from "./RoatingPlane"
+export { RoatatePlane } from "./RoatatePlane"
 export { Pulse } from "./Pulse"
 export { DoubleBounce } from "./DoubleBounce"
 export { Wave } from "./Wave"
+export { WanderCube } from "./WanderCube"
+export { Grow } from "./Grow"
+export { Swing } from "./Swing"

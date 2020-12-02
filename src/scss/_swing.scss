@@ -1,0 +1,100 @@
+.spin-swing {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  vertical-align: text-bottom;
+  animation: sk-swing 2s infinite linear;
+
+  &-dot {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: currentColor;
+    border-radius: 100%;
+    animation: sk-swing-bounce 2s infinite ease-in-out;
+
+    &:nth-child(2) {
+      top: auto;
+      bottom: 0;
+      animation-delay: -1s;
+    }
+  }
+
+  // sizes
+  &-sm {
+    width: 20px;
+    height: 20px;
+  }
+
+  &-lg {
+    width: 60px;
+    height: 60px;
+  }
+
+  //colors
+  &-primary {
+    .spin-swing-dot {
+      background-color: $primary;
+    }
+  }
+
+  &-secondary {
+    .spin-swing-dot {
+      background-color: $secondary;
+    }
+  }
+
+  &-success {
+    .spin-swing-dot {
+      background-color: $success;
+    }
+  }
+
+  &-warning {
+    .spin-swing-dot {
+      background-color: $warning;
+    }
+  }
+
+  &-danger {
+    .spin-swing-dot {
+      background-color: $danger;
+    }
+  }
+
+  &-info {
+    .spin-swing-dot {
+      background-color: $info;
+    }
+  }
+
+  &-light {
+    .spin-swing-dot {
+      background-color: $light;
+    }
+  }
+
+  &-dark {
+    .spin-swing-dot {
+      background-color: $dark;
+    }
+  }
+}
+
+@keyframes sk-swing {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sk-swing-bounce {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
