@@ -10,8 +10,6 @@ const RoatingPlane = ({ size, color, className, ...rest }) => {
     [className]: className
   })
 
-  console.log("rest", rest)
-
   return <div className={_className} {...rest}></div>
 }
 

@@ -3,6 +3,7 @@
   height: 40px;
   background-color: currentColor;
   animation: sk-rotateplane 1.2s infinite ease-in-out;
+
   // sizes
   &-sm {
     width: 20px;
@@ -13,6 +14,7 @@
     width: 60px;
     height: 60px;
   }
+
   // colors
   &-primary {
     background-color: $primary;
