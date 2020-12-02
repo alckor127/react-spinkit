@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { RoatingPlane, Pulse, DoubleBounce } from "./components"
+import { RoatingPlane, Pulse, DoubleBounce, Wave } from "./components"
 
 const Spin = ({ type, size, color, ...rest }) => {
   switch (type) {
@@ -10,6 +10,8 @@ const Spin = ({ type, size, color, ...rest }) => {
       return <Pulse size={size} color={color} {...rest} />
     case "double-bounce":
       return <DoubleBounce size={size} color={color} {...rest} />
+    case "wave":
+      return <Wave size={size} color={color} {...rest} />
     default:
       return <h1>NO SPIN</h1>
   }
@@ -22,7 +24,7 @@ Spin.defaultProps = {
 }
 
 Spin.propType = {
-  type: PropTypes.oneOf(["roating-plane", "pulse", "double-bounce"]),
+  type: PropTypes.oneOf(["roating-plane", "pulse", "double-bounce", "wave"]),
   size: PropTypes.oneOf(["sm", "lg"]),
   color: PropTypes.oneOf([
     "primary",

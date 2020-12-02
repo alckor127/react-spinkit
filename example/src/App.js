@@ -17,6 +17,10 @@ const App = () => {
       <Spin type='double-bounce' size='sm' color='dark' />
       <Spin type='double-bounce' color='success' />
       <Spin type='double-bounce' size='lg' color='danger' />
+      <h3>Wave</h3>
+      <Spin type='wave' size='sm' color='dark' />
+      <Spin type='wave' color='success' />
+      <Spin type='wave' size='lg' color='danger' />
     </div>
   )
 }
