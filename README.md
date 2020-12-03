@@ -31,11 +31,11 @@ class Example extends Component {
 
 ### `<SpinKit />`
 
-| Prop                   | Type   | Default Description                                                                                                                         |
-| :--------------------- | :----- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`type`](#type-prop)   | String | fade-circle Determine the style type of the spinner. Default value is `fade-circle`. Check all possible values [`here`](#type-prop-values). |
-| [`size`](#size-prop)   | String | Determine the size of the spinner. Check all possible values [`here`](#size-prop-values).                                                   |
-| [`color`](#color-prop) | String | Determine the size of spinner. Check all possible values [`here`](#color-prop-values).                                                      |
+| Prop                   | Type   |   Default   | Description                                                                                                                     |
+| :--------------------- | :----- | :---------: | :------------------------------------------------------------------------------------------------------------------------------ |
+| [`type`](#type-prop)   | String | fade-circle | Determine the style type of the spinner. Default value is `fade-circle`. Check all possible values [`here`](#type-prop-values). |
+| [`size`](#size-prop)   | String |             | Determine the size of the spinner. Check all possible values [`here`](#size-prop-values).                                       |
+| [`color`](#color-prop) | String |             | Determine the size of spinner. Check all possible values [`here`](#color-prop-values).                                          |
 
 <a name="type-prop"></a>
 
