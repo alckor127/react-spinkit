@@ -3,8 +3,10 @@
   height: $size-default;
   background-color: currentColor;
   border-radius: 100%;
-  vertical-align: text-bottom;
   animation: sk-grow 1s infinite ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: text-bottom;
 
   // sizes
   &-sm {

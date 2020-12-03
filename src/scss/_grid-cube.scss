@@ -1,6 +1,8 @@
 .spin-grid {
   width: $size-default;
   height: $size-default;
+  display: inline-block;
+  vertical-align: text-bottom;
 
   &-cube {
     width: 33%;

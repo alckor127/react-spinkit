@@ -2,8 +2,10 @@
   width: $size-default;
   height: $size-default;
   position: relative;
-  vertical-align: text-bottom;
   animation: sk-pulse 2.5s infinite linear both;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: text-bottom;
 
   &-dot {
     width: 100%;

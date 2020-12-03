@@ -2,7 +2,9 @@
   width: $size-default;
   height: $size-default;
   position: relative;
-  transform: rotateZ(45deg);
+  transform: rotate(45deg);
+  display: inline-block;
+  vertical-align: text-bottom;
 
   &-cube {
     float: left;

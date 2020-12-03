@@ -1,9 +1,9 @@
 .spin-flow {
   width: $size-default;
   height: $size-default;
-  vertical-align: text-bottom;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  vertical-align: text-bottom;
 
   &-dot {
     width: 25%;

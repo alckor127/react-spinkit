@@ -2,6 +2,9 @@
   width: $size-default;
   height: $size-default;
   position: relative;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: text-bottom;
 
   &-dot {
     width: 100%;

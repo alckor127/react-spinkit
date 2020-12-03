@@ -1,9 +1,10 @@
 .spin-wave {
   width: $size-default;
   height: $size-default;
-  vertical-align: text-bottom;
-  display: flex;
+  display: inline-flex;
+  align-items: center;
   justify-content: space-between;
+  vertical-align: text-bottom;
 
   > .spin-wave-rect {
     background-color: currentColor;
@@ -37,10 +38,6 @@
   &-sm {
     width: $size-sm;
     height: $size-sm;
-
-    > .spin-wave-rect {
-      width: 12%;
-    }
   }
 
   &-lg {
