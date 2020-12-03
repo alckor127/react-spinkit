@@ -2,12 +2,12 @@
 
 A collection of spinner indicators animated with SpinKit for React.
 
-[![NPM](https://img.shields.io/npm/v/react-spinkit.svg)](https://www.npmjs.com/package/react-spinkit) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@alckor127/react-spinkit.svg)](https://www.npmjs.com/package/@alckor127/react-spinkit) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-spinkit
+npm install --save @alckor127/react-spinkit
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save react-spinkit
 ```jsx
 import React, { Component } from "react"
 
-import SpinKit from "react-spinkit"
-import "react-spinkit/dist/index.css"
+import SpinKit from "@alckor127/react-spinkit"
+import "@alckor127/react-spinkit/dist/index.css"
 
 class Example extends Component {
   render() {
@@ -39,7 +39,7 @@ class Example extends Component {
 
 <a name="type-prop"></a>
 
-#### type
+#### Type
 
 Determine the style type of the spinner. Default value is `fade-circle`.
 
@@ -49,7 +49,7 @@ Determine the style type of the spinner. Default value is `fade-circle`.
 
 <a name="type-prop-values"></a>
 
-#### All values
+##### All values
 
 - circle
 - double-bounce
@@ -62,6 +62,46 @@ Determine the style type of the spinner. Default value is `fade-circle`.
 - rotate-plane
 - swing
 - wave
+
+<a name="type-prop"></a>
+
+#### Size
+
+Determine the size of the spinner.
+
+```jsx
+<SpinKit size='sm' />
+```
+
+<a name="size-prop-values"></a>
+
+##### All values
+
+- sm
+- lg
+
+<a name="color-prop"></a>
+
+#### Color
+
+Determine the color of the spinner.
+
+```jsx
+<SpinKit color='dark' />
+```
+
+<a name="color-prop-values"></a>
+
+##### All values
+
+- primary
+- secondary
+- success
+- danger
+- warning
+- info
+- light
+- dark
 
 ## License
 
