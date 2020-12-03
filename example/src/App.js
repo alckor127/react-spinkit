@@ -57,19 +57,6 @@ const App = () => {
         <Spin type='wave' size='lg' color='danger' />
       </div>
       <hr />
-      <h3>Wandering Cube</h3>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center"
-        }}
-      >
-        <Spin type='wander-cube' size='sm' color='dark' />
-        <Spin type='wander-cube' color='success' />
-        <Spin type='wander-cube' size='lg' color='danger' />
-      </div>
-      <hr />
       <h3>Grow</h3>
       <div
         style={{
