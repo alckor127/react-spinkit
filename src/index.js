@@ -14,7 +14,7 @@ import {
   Wave
 } from "./components"
 
-const Spin = ({ type, size, color, ...rest }) => {
+const SpinKit = ({ type, size, color, ...rest }) => {
   switch (type) {
     case "circle":
       return <Circle size={size} color={color} {...rest} />
@@ -41,13 +41,13 @@ const Spin = ({ type, size, color, ...rest }) => {
   }
 }
 
-Spin.defaultProps = {
+SpinKit.defaultProps = {
   type: "fade-circle",
   size: "",
   color: ""
 }
 
-Spin.propType = {
+SpinKit.propType = {
   type: PropTypes.oneOf([
     "circle",
     "double-bounce",
@@ -74,4 +74,4 @@ Spin.propType = {
   ])
 }
 
-export default Spin
+export default SpinKit
