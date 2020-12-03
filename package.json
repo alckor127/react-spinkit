@@ -2,7 +2,7 @@
   "name": "react-spinkit",
   "version": "1.0.0",
   "description": "A collection of spinner indicators animated with SpinKit for React.",
-  "author": "zimacorp",
+  "author": "alckor127",
   "license": "MIT",
   "repository": "alckor127/react-spinkit",
   "main": "dist/index.js",
@@ -51,7 +51,8 @@
     "react-scripts": "^3.4.1"
   },
   "files": [
-    "dist"
+    "dist",
+    "dist/scss"
   ],
   "dependencies": {
     "classnames": "^2.2.6",
