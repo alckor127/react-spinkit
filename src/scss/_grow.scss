@@ -1,6 +1,6 @@
 .spin-grow {
-  width: 40px;
-  height: 40px;
+  width: $size-default;
+  height: $size-default;
   background-color: currentColor;
   border-radius: 100%;
   vertical-align: text-bottom;
@@ -8,13 +8,13 @@
 
   // sizes
   &-sm {
-    width: 20px;
-    height: 20px;
+    width: $size-sm;
+    height: $size-sm;
   }
 
   &-lg {
-    width: 60px;
-    height: 60px;
+    width: $size-lg;
+    height: $size-lg;
   }
 
   // colors

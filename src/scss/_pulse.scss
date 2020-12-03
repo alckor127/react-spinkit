@@ -1,6 +1,6 @@
 .spin-pulse {
-  width: 40px;
-  height: 40px;
+  width: $size-default;
+  height: $size-default;
   position: relative;
   vertical-align: text-bottom;
   animation: sk-pulse 2.5s infinite linear both;
@@ -68,13 +68,13 @@
 
   // sizes
   &-sm {
-    width: 20px;
-    height: 20px;
+    width: $size-sm;
+    height: $size-sm;
   }
 
   &-lg {
-    width: 60px;
-    height: 60px;
+    width: $size-lg;
+    height: $size-lg;
   }
 
   // colors

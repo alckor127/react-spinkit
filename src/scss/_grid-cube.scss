@@ -1,35 +1,48 @@
-.spin-wave {
+.spin-grid {
   width: $size-default;
   height: $size-default;
-  vertical-align: text-bottom;
-  display: flex;
-  justify-content: space-between;
 
-  > .spin-wave-rect {
+  &-cube {
+    width: 33%;
+    height: 33%;
     background-color: currentColor;
-    height: 100%;
-    width: 15%;
-    display: inline-block;
-    animation: sk-wave 1.2s infinite ease-in-out;
+    float: left;
+    animation: sk-grid-cube 1.3s infinite ease-in-out;
 
-    &:nth-child(2) {
-      animation-delay: -1.2s;
+    &:nth-child(1) {
+      animation-delay: 0.2s;
     }
 
     &:nth-child(2) {
-      animation-delay: -1.1s;
+      animation-delay: 0.3s;
     }
 
     &:nth-child(3) {
-      animation-delay: -1s;
+      animation-delay: 0.4s;
     }
 
     &:nth-child(4) {
-      animation-delay: -0.9s;
+      animation-delay: 0.1s;
     }
 
     &:nth-child(5) {
-      animation-delay: -0.8s;
+      animation-delay: 0.2s;
+    }
+
+    &:nth-child(6) {
+      animation-delay: 0.3s;
+    }
+
+    &:nth-child(7) {
+      animation-delay: 0s;
+    }
+
+    &:nth-child(8) {
+      animation-delay: 0.1s;
+    }
+
+    &:nth-child(9) {
+      animation-delay: 0.2s;
     }
   }
 
@@ -37,10 +50,6 @@
   &-sm {
     width: $size-sm;
     height: $size-sm;
-
-    > .spin-wave-rect {
-      width: 12%;
-    }
   }
 
   &-lg {
@@ -48,63 +57,63 @@
     height: $size-lg;
   }
 
-  //colors
+  // colors
   &-primary {
-    > .spin-wave-rect {
+    .spin-grid-cube {
       background-color: $primary;
     }
   }
 
   &-secondary {
-    > .spin-wave-rect {
+    .spin-grid-cube {
       background-color: $secondary;
     }
   }
 
   &-success {
-    > .spin-wave-rect {
+    .spin-grid-cube {
       background-color: $success;
     }
   }
 
   &-warning {
-    > .spin-wave-rect {
+    .spin-grid-cube {
       background-color: $warning;
     }
   }
 
   &-danger {
-    > .spin-wave-rect {
+    .spin-grid-cube {
       background-color: $danger;
     }
   }
 
   &-info {
-    > .spin-wave-rect {
+    .spin-grid-cube {
       background-color: $info;
     }
   }
 
   &-light {
-    > .spin-wave-rect {
+    .spin-grid-cube {
       background-color: $light;
     }
   }
 
   &-dark {
-    > .spin-wave-rect {
+    .spin-grid-cube {
       background-color: $dark;
     }
   }
 }
 
-@keyframes sk-wave {
+@keyframes sk-grid-cube {
   0%,
-  40%,
+  70%,
   100% {
-    transform: scaleY(0.4);
+    transform: scale3D(1, 1, 1);
   }
-  20% {
-    transform: scaleY(1);
+  35% {
+    transform: scale3D(0, 0, 1);
   }
 }

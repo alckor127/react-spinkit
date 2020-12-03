@@ -1,19 +1,19 @@
 .spin-rotate-plane {
-  width: 40px;
-  height: 40px;
+  width: $size-default;
+  height: $size-default;
   background-color: currentColor;
   vertical-align: text-bottom;
   animation: sk-rotate-plane 1.2s infinite ease-in-out;
 
   // sizes
   &-sm {
-    width: 20px;
-    height: 20px;
+    width: $size-sm;
+    height: $size-sm;
   }
 
   &-lg {
-    width: 60px;
-    height: 60px;
+    width: $size-lg;
+    height: $size-lg;
   }
 
   // colors
@@ -52,12 +52,12 @@
 
 @keyframes sk-rotate-plane {
   0% {
-    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(1$size-sm) rotateX(0deg) rotateY(0deg);
   }
   50% {
-    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    transform: perspective(1$size-sm) rotateX(-180.1deg) rotateY(0deg);
   }
   100% {
-    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    transform: perspective(1$size-sm) rotateX(-180deg) rotateY(-179.9deg);
   }
 }

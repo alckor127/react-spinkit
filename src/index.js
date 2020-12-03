@@ -7,12 +7,15 @@ import {
   Wave,
   WanderCube,
   Grow,
-  Swing
+  Swing,
+  Flow,
+  Circle,
+  GridCube,
+  FadeCircle,
+  FoldCube
 } from "./components"
 
 const Spin = ({ type, size, color, ...rest }) => {
-  console.log("TYPE", type)
-
   switch (type) {
     case "rotate-plane":
       return <RoatatePlane size={size} color={color} {...rest} />
@@ -28,14 +31,23 @@ const Spin = ({ type, size, color, ...rest }) => {
       return <Grow size={size} color={color} {...rest} />
     case "swing":
       return <Swing size={size} color={color} {...rest} />
-
+    case "flow":
+      return <Flow size={size} color={color} {...rest} />
+    case "circle":
+      return <Circle size={size} color={color} {...rest} />
+    case "grid-cube":
+      return <GridCube size={size} color={color} {...rest} />
+    case "fade-circle":
+      return <FadeCircle size={size} color={color} {...rest} />
+    case "fold-cube":
+      return <FoldCube size={size} color={color} {...rest} />
     default:
-      return <h4>NO SPIN</h4>
+      return
   }
 }
 
 Spin.defaultProps = {
-  type: "rotate-plane",
+  type: "circle",
   size: "",
   color: ""
 }
@@ -48,7 +60,12 @@ Spin.propType = {
     "wave",
     "wander-cube",
     "grow",
-    "swing"
+    "swing",
+    "flow",
+    "circle",
+    "grid-cube",
+    "fade-circle",
+    "fold-cube"
   ]),
   size: PropTypes.oneOf(["sm", "lg"]),
   color: PropTypes.oneOf([

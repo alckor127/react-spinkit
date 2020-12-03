@@ -95,6 +95,71 @@ const App = () => {
         <Spin type='swing' color='success' />
         <Spin type='swing' size='lg' color='danger' />
       </div>
+      <hr />
+      <h3>Three Bounce</h3>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center"
+        }}
+      >
+        <Spin type='flow' size='sm' color='dark' />
+        <Spin type='flow' color='success' />
+        <Spin type='flow' size='lg' color='danger' />
+      </div>
+      <hr />
+      <h3>Circle</h3>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center"
+        }}
+      >
+        <Spin type='circle' size='sm' color='dark' />
+        <Spin type='circle' color='success' />
+        <Spin type='circle' size='lg' color='danger' />
+      </div>
+      <hr />
+      <h3>Grid Cube</h3>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center"
+        }}
+      >
+        <Spin type='grid-cube' size='sm' color='dark' />
+        <Spin type='grid-cube' color='success' />
+        <Spin type='grid-cube' size='lg' color='danger' />
+      </div>
+      <hr />
+      <h3>Fade Circle</h3>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center"
+        }}
+      >
+        <Spin type='fade-circle' size='sm' color='dark' />
+        <Spin type='fade-circle' color='success' />
+        <Spin type='fade-circle' size='lg' color='danger' />
+      </div>
+      <hr />
+      <h3>Folding Cube</h3>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center"
+        }}
+      >
+        <Spin type='fold-cube' size='sm' color='dark' />
+        <Spin type='fold-cube' color='success' />
+        <Spin type='fold-cube' size='lg' color='danger' />
+      </div>
     </div>
   )
 }
