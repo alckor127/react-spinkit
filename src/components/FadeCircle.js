@@ -12,18 +12,18 @@ const FadeCircle = ({ size, color, className, ...rest }) => {
 
   return (
     <div className={_className} {...rest}>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
-      <div className={styles[`spin-fade-circle-dot`]}></div>
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
+      <div className={styles[`spin-fade-circle-dot`]} />
     </div>
   )
 }

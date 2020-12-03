@@ -12,8 +12,8 @@ const Swing = ({ size, color, className, ...rest }) => {
 
   return (
     <div className={_className} {...rest}>
-      <div className={styles[`spin-swing-dot`]}></div>
-      <div className={styles[`spin-swing-dot`]}></div>
+      <div className={styles[`spin-swing-dot`]} />
+      <div className={styles[`spin-swing-dot`]} />
     </div>
   )
 }

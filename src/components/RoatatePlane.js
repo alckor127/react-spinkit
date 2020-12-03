@@ -10,7 +10,7 @@ const RoatatePlane = ({ size, color, className, ...rest }) => {
     [className]: className
   })
 
-  return <div className={_className} {...rest}></div>
+  return <div className={_className} {...rest} />
 }
 
 export { RoatatePlane }

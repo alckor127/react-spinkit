@@ -12,18 +12,18 @@ const Circle = ({ size, color, className, ...rest }) => {
 
   return (
     <div className={_className} {...rest}>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
-      <div className={styles[`spin-circle-dot`]}></div>
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
+      <div className={styles[`spin-circle-dot`]} />
     </div>
   )
 }

@@ -12,12 +12,12 @@ const Pulse = ({ size, color, className, ...rest }) => {
 
   return (
     <div className={_className} {...rest}>
-      <div className={styles[`spin-pulse-dot`]}></div>
-      <div className={styles[`spin-pulse-dot`]}></div>
-      <div className={styles[`spin-pulse-dot`]}></div>
-      <div className={styles[`spin-pulse-dot`]}></div>
-      <div className={styles[`spin-pulse-dot`]}></div>
-      <div className={styles[`spin-pulse-dot`]}></div>
+      <div className={styles[`spin-pulse-dot`]} />
+      <div className={styles[`spin-pulse-dot`]} />
+      <div className={styles[`spin-pulse-dot`]} />
+      <div className={styles[`spin-pulse-dot`]} />
+      <div className={styles[`spin-pulse-dot`]} />
+      <div className={styles[`spin-pulse-dot`]} />
     </div>
   )
 }

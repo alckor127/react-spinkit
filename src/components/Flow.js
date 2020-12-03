@@ -12,9 +12,9 @@ const Flow = ({ size, color, className, ...rest }) => {
 
   return (
     <div className={_className} {...rest}>
-      <div className={styles[`spin-flow-dot`]}></div>
-      <div className={styles[`spin-flow-dot`]}></div>
-      <div className={styles[`spin-flow-dot`]}></div>
+      <div className={styles[`spin-flow-dot`]} />
+      <div className={styles[`spin-flow-dot`]} />
+      <div className={styles[`spin-flow-dot`]} />
     </div>
   )
 }

@@ -38,8 +38,6 @@ const Spin = ({ type, size, color, ...rest }) => {
       return <Swing size={size} color={color} {...rest} />
     case "wave":
       return <Wave size={size} color={color} {...rest} />
-    default:
-      return
   }
 }
 
