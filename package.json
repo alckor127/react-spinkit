@@ -1,10 +1,13 @@
 {
-  "name": "react-spinkit",
+  "name": "@alckor127/react-spinkit",
   "version": "1.0.0",
   "description": "A collection of spinner indicators animated with SpinKit for React.",
   "author": "alckor127",
   "license": "MIT",
-  "repository": "alckor127/react-spinkit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alckor127/react-spinkit.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -51,11 +54,24 @@
     "react-scripts": "^3.4.1"
   },
   "files": [
-    "dist",
-    "dist/scss"
+    "dist"
   ],
   "dependencies": {
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/alckor127/react-spinkit/issues"
+  },
+  "homepage": "https://github.com/alckor127/react-spinkit#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "spinner",
+    "spinkit",
+    "spin",
+    "react",
+    "react-spinkit"
+  ]
 }
