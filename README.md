@@ -103,6 +103,10 @@ Determine the color of the spinner.
 - light
 - dark
 
+## Examples
+
+- [Basic](https://codesandbox.io/s/example-plugx)
+
 ## License
 
 MIT © [alckor127](https://github.com/alckor127) 2020
